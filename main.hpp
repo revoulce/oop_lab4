@@ -6,7 +6,7 @@
 #ifndef OOP_LAB4__MAIN_HPP_
 #define OOP_LAB4__MAIN_HPP_
 
-#include "Employee.hpp"
+#include "Employees.hpp"
 
 int main();
 
