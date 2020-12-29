@@ -143,8 +143,10 @@ void Employees::DeleteEmployee(int32_t id) {
         employees_by_year_of_birth_.erase(year_of_birth_to_delete);
     }
 
-    if (employees_by_gender_and_year_of_birth_.at(gender_to_delete).empty()) {
-        employees_by_gender_and_year_of_birth_.erase(gender_to_delete);
+    if (employees_by_gender_and_year_of_birth_.contains(gender_to_delete)) {
+        if (employees_by_gender_and_year_of_birth_.at(gender_to_delete).empty()) {
+            employees_by_gender_and_year_of_birth_.erase(gender_to_delete);
+        }
     }
 }
 
