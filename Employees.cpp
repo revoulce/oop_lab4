@@ -173,7 +173,7 @@ std::unique_ptr<Iterator> Employees::GetRetirees(const int32_t retirement_year) 
     return std::make_unique<Iterator>(std::move(MakeFilteredSet(retirees_by_id)));
 }
 
-std::unordered_set<const Employee*> Employees::MakeFilteredSet(const std::unordered_set<int32_t>& filtered_employee_id) const {
+std::unordered_set<const Employee*> Employees::MakeFilteredSet(const std::unordered_set<int32_t>&& filtered_employee_id) const {
     std::unordered_set<const Employee*> employees_ptr;
 
     for (const auto& employee_id : filtered_employee_id) {
