@@ -1,0 +1,21 @@
+20
+Deborah B. Yelle,  Power plant distributor,           Female, 1990, 1976
+Jose V. Jarvis,    Benefits clerk,                    Male,   2015, 1995
+Bennie P. Kaplan,  Order processor,                   Female, 1969, 1945
+Mary I. Stricker,  Fish cleaner,                      Female, 2010, 1985
+Jamie E. Brake,    Information architect librarian,   Female, 2019, 1994
+Margie S. Lott,    Secret Service agent,              Female, 1999, 1977
+Jason L. Gray,     Correctional treatment specialist, Male,   1983, 1957
+Lee C. Moua,       Radiation protection technician,   Male,   2013, 1979
+Edward D. McGill,  Highway maintenance worker,        Male,   2019, 2001
+Mary B. Duren,     Tree pruner,                       Female, 2004, 1983
+Petrina P. George, Nuclear engineer,                  Female, 1962, 1943
+George L. Lopez,   Travel clerk,                      Male,   1960, 1941
+Adeline R. Hobart, Surgeon,                           Female, 1978, 1955
+Wendy R. Gallegos, Staffing consultant,               Female, 1990, 1966
+John M. White,     Obstetrician,                      Male,   1976, 1955
+Jimmy C. Musgrave, Excavating operator,               Male,   1998, 1973
+Nellie J. Willis,  Nephrology nurse,                  Female, 1971, 1945
+Jonathan P. Webb,  College instructor,                Male,   1961, 1937
+Jeanne C. Hatcher, Postmaster,                        Female, 1964, 1942
+Donna J. Hancock,  Cardiovascular technologist,       Female, 1981, 1957
