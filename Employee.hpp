@@ -10,14 +10,6 @@
 #include <string>
 #include <utility>
 
-typedef struct EmployeeData {
-  std::string name;
-  std::string occupation;
-  std::string gender;
-  int32_t year_of_employment;
-  int32_t year_of_birth;
-} EmployeeData;
-
 class Employee {
   public:
     Employee(const std::string& name,
