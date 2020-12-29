@@ -162,15 +162,15 @@ void Console::PrintEmployeesByAttributes() {
                 WaitForAnyKey();
                 break;
             case 2:
-                PrintEmployees(std::move(employees_.GetEmployeesByName(GetString("Enter full name: "))));
+                PrintEmployees(std::move(employees_.GetEmployeesByName(Trim(GetString("Enter full name: ")))));
                 WaitForAnyKey();
                 break;
             case 3:
-                PrintEmployees(std::move(employees_.GetEmployeesByOccupation(GetString("Enter occupation: "))));
+                PrintEmployees(std::move(employees_.GetEmployeesByOccupation(Trim(GetString("Enter occupation: ")))));
                 WaitForAnyKey();
                 break;
             case 4:
-                PrintEmployees(std::move(employees_.GetEmployeesByGender(GetString("Enter gender: "))));
+                PrintEmployees(std::move(employees_.GetEmployeesByGender(Trim(GetString("Enter gender: ")))));
                 WaitForAnyKey();
                 break;
             case 5:
