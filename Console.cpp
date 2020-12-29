@@ -111,7 +111,7 @@ void Console::PrintEmployees(std::unique_ptr<Iterator> iterator) {
         std::cout << "No matching employees." << std::endl;
         return;
     }
-    auto employee = iterator->GetData();
+    auto employee = iterator->StepForward();
 
     while (employee != nullptr) {
         PrintEmployee(employee);
